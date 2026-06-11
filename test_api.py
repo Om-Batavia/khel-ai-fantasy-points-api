@@ -19,7 +19,7 @@ class StandaloneApiTests(unittest.TestCase):
     def test_root(self):
         response = self.client.get("/")
         self.assertEqual(response.status_code, 200)
-        self.assertEqual(response.json()["student_name"], "Student 5")
+        self.assertEqual(response.json()["student_name"], "Om-Batavia (Student 5)")
 
     def test_health(self):
         response = self.client.get("/health")

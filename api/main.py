@@ -23,7 +23,7 @@ app = FastAPI(
 def root():
     return {
         "api_name": "Khel AI Pressure-Enriched Fantasy Points API",
-        "student_name": "Student 5",
+        "student_name": "Om-Batavia (Student 5)",
         "description": "Demo-only next-match fantasy-points prediction from pre-match historical features.",
         "docs": "/docs",
     }
