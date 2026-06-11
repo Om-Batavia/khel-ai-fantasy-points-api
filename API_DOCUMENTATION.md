@@ -329,8 +329,8 @@ available.
 
 ## 20. GitHub Repository URL
 
-- **Status:** Pending publication.
-- **Repository URL:** Pending publication.
+- **Status:** Published.
+- **Repository URL:** `https://github.com/Om-Batavia/khel-ai-fantasy-points-api`
 
 A real repository URL must be added after the project is pushed. A guessed URL
 is intentionally not listed because fabricated repository evidence carries a

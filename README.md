@@ -189,7 +189,7 @@ Training is separate from serving. API requests load the cached `.pkl` and call
 
 - Hosted API URL: **Pending deployment**
 - Swagger URL: **Pending deployment**
-- GitHub repository URL: **Pending publication**
+- GitHub repository URL: **https://github.com/Om-Batavia/khel-ai-fantasy-points-api**
 
 Do not submit invented URLs. Deployment requires pushing this folder to a
 GitHub repository and connecting that repository to the included `render.yaml`.
