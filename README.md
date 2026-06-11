@@ -187,8 +187,8 @@ Training is separate from serving. API requests load the cached `.pkl` and call
 
 ## Submission URLs
 
-- Hosted API URL: **Pending deployment**
-- Swagger URL: **Pending deployment**
+- Hosted API URL: **https://student5-expected-fantasy-final-api.onrender.com**
+- Swagger URL: **https://student5-expected-fantasy-final-api.onrender.com/docs**
 - GitHub repository URL: **https://github.com/Om-Batavia/khel-ai-fantasy-points-api**
 
 Do not submit invented URLs. Deployment requires pushing this folder to a

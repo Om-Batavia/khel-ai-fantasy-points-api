@@ -318,14 +318,15 @@ real-world predictive claims.
 
 ## 19. Hosted API URL
 
-- **Status:** Pending deployment.
+- **Status:** Deployed and verified.
+- **Hosted API:** `https://student5-expected-fantasy-final-api.onrender.com`
+- **Hosted Swagger:** `https://student5-expected-fantasy-final-api.onrender.com/docs`
+- **Hosted health check:** `https://student5-expected-fantasy-final-api.onrender.com/health`
 - **Local API:** `http://127.0.0.1:8001`
 - **Local Swagger:** `http://127.0.0.1:8001/docs`
 
-The project includes `render.yaml` and a Dockerfile for Render, Hugging Face
-Spaces, Koyeb, Railway, or another container host. A public URL cannot be
-truthfully listed until deployment credentials and a Git-backed source are
-available.
+The service is deployed from the repository's `render.yaml`. The public health
+check was verified to return HTTP 200 with the packaged `.pkl` model loaded.
 
 ## 20. GitHub Repository URL
 

@@ -29,9 +29,9 @@ historical form, role, opportunity, pressure, and confidence features.
 ## Links
 
 - GitHub repository: https://github.com/Om-Batavia/khel-ai-fantasy-points-api
-- Hosted API: Pending hosting-account authorization
-- Swagger documentation: Pending hosting-account authorization
-- Render deployment setup: https://dashboard.render.com/blueprint/new?repo=https://github.com/Om-Batavia/khel-ai-fantasy-points-api
+- Hosted API: https://student5-expected-fantasy-final-api.onrender.com
+- Swagger documentation: https://student5-expected-fantasy-final-api.onrender.com/docs
+- Health check: https://student5-expected-fantasy-final-api.onrender.com/health
 
 ## Main Endpoints
 
