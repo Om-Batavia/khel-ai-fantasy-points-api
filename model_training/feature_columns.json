@@ -1,0 +1,29 @@
+{
+  "feature_columns": [
+    "career_avg_before_match",
+    "recent_2_avg_before_match",
+    "recent_3_avg_before_match",
+    "recent_5_avg_before_match",
+    "prior_match_count",
+    "days_since_last_match",
+    "historical_balls_faced_avg_before_match",
+    "historical_overs_bowled_avg_before_match",
+    "historical_runs_avg_before_match",
+    "historical_wickets_avg_before_match",
+    "bayesian_posterior_before_match",
+    "adjusted_posterior_before_match",
+    "is_batter",
+    "is_bowler",
+    "is_allrounder",
+    "is_wicketkeeper",
+    "historical_avg_pressure_faced",
+    "historical_avg_confidence",
+    "historical_confidence_slope",
+    "historical_high_pressure_control",
+    "historical_pressure_resilience",
+    "historical_dot_recovery_rate"
+  ],
+  "target_column": "fantasy_points",
+  "model_mode": "demo_only",
+  "leakage_rule": "All features must be calculated strictly before the target match."
+}

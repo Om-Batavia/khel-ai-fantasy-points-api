@@ -1,0 +1,43 @@
+{
+  "model_name": "linear_regression",
+  "model_version": "2.0.0",
+  "model_mode": "demo_only",
+  "source_dataset": "HimanshuKhale/datasets_cricket",
+  "canonical_rows": 264,
+  "training_rows": 220,
+  "split_strategy": "chronological_70_15_15",
+  "splits": {
+    "train": 154,
+    "validation": 33,
+    "test": 33
+  },
+  "linear_regression": {
+    "train": {
+      "mae": 19.864,
+      "rmse": 24.934,
+      "r2": 0.197,
+      "rows": 154
+    },
+    "validation": {
+      "mae": 26.126,
+      "rmse": 34.354,
+      "r2": 0.012,
+      "rows": 33
+    },
+    "test": {
+      "mae": 26.577,
+      "rmse": 33.53,
+      "r2": -0.037,
+      "rows": 33
+    }
+  },
+  "career_average_baseline": {
+    "test": {
+      "mae": 29.065,
+      "rmse": 37.407,
+      "r2": -0.291,
+      "rows": 33
+    }
+  },
+  "warning": "Small synthetic/faux dataset. Metrics demonstrate the API and modelling workflow only and are not evidence of production predictive accuracy."
+}

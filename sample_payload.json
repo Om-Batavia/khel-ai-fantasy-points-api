@@ -1,0 +1,47 @@
+{
+  "player": {
+    "player_id": "P-005",
+    "player_name": "Sample All Rounder",
+    "role": "all_rounder"
+  },
+  "batting_event_probabilities": {
+    "run_0": 0.22,
+    "run_1": 0.34,
+    "run_2": 0.14,
+    "run_3": 0.03,
+    "four": 0.12,
+    "six": 0.06,
+    "dismissal": 0.09
+  },
+  "bowling_event_probabilities": {
+    "dot_ball": 0.38,
+    "wicket": 0.08,
+    "maiden_over": 0.03,
+    "economy_bonus": 0.18
+  },
+  "fielding_event_probabilities": {
+    "catch": 0.16,
+    "run_out": 0.04,
+    "stumping": 0.02
+  },
+  "event_point_values": {
+    "run_0": 0,
+    "run_1": 1,
+    "run_2": 2,
+    "run_3": 3,
+    "four": 5,
+    "six": 8,
+    "dismissal": -2,
+    "dot_ball": 1,
+    "wicket": 25,
+    "maiden_over": 12,
+    "economy_bonus": 6,
+    "catch": 8,
+    "run_out": 12,
+    "stumping": 12
+  },
+  "selection_thresholds": {
+    "strong_pick_min": 30,
+    "playable_min": 15
+  }
+}

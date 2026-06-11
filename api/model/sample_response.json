@@ -1,0 +1,33 @@
+{
+  "prediction": 47.35,
+  "prediction_label": "Moderate Fantasy Potential",
+  "model_name": "linear_regression",
+  "model_version": "2.0.0",
+  "features_used": [
+    "career_avg_before_match",
+    "recent_2_avg_before_match",
+    "recent_3_avg_before_match",
+    "recent_5_avg_before_match",
+    "prior_match_count",
+    "days_since_last_match",
+    "historical_balls_faced_avg_before_match",
+    "historical_overs_bowled_avg_before_match",
+    "historical_runs_avg_before_match",
+    "historical_wickets_avg_before_match",
+    "bayesian_posterior_before_match",
+    "adjusted_posterior_before_match",
+    "is_batter",
+    "is_bowler",
+    "is_allrounder",
+    "is_wicketkeeper",
+    "historical_avg_pressure_faced",
+    "historical_avg_confidence",
+    "historical_confidence_slope",
+    "historical_high_pressure_control",
+    "historical_pressure_resilience",
+    "historical_dot_recovery_rate"
+  ],
+  "confidence_note": "No probability confidence is reported. Test MAE is 26.577 fantasy points and test R2 is -0.037 on a 33-row synthetic holdout.",
+  "explanation": "In cricket terms, the model predicts 47.35 fantasy points. It sees that recent form is at or below the career level, historical pressure resilience is limited, and the player's profile mainly reflects bowling contribution. This is a synthetic-data demonstration, so the value should support a dashboard workflow rather than a real selection decision.",
+  "model_mode": "demo_only"
+}
